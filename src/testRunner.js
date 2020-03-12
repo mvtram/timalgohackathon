@@ -7,7 +7,7 @@ const results = {
 
 const testCasesByCount = {};
 
-module.exports = function runner(testData, stencil = true) {
+module.exports = function runner(testData, stencil = false) {
     testData.forEach(testCase => {
         if (!stencil) {
             testCase.stencilPixels = [];

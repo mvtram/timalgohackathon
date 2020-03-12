@@ -2,10 +2,10 @@ import React from 'react';
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import testRunner from './testRunner';
-import testData from './test-data/data-1';
+import testData from './test-data/data-6';
 import { Container, Button, Icon, Step, Dropdown } from 'semantic-ui-react';
 
-const STENCIL = true;
+const STENCIL = false;
 
 const { results, testCases, testCasesByCount } = testRunner(testData, STENCIL);
 console.log(results);

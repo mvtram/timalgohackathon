@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "node testRunner.js",
-    "test2": "NO_STENCIL=1 node testRunner.js",
+    "test2": "node testRunner.js",
     "eject": "react-scripts eject",
     "break": "node dataBreaker.js"
   },
